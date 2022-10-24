@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* css Document */
+body {
+    background-image: url("../images/backg.image.jpg"); 
+    background-size: cover;                     /* Background image, size, font style box */
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    }
+
+a {
+    text-decoration: line-through;         /* Comemnt out */
+    color: #ac3012;
+}
+
+h1, h2, h3 {             /* Font sizea and spacing */
+    margin: 0;  
+    padding: 25px
+}
+
+h2 {
+    color: black;                 /* Color, size, margine */
+    font-size: 20px;
+    margin: -20px
+}
+
+h3 {
+    font-size: 16px;                 /* Color, size, margine */
+    color: black;
+    padding: 0px;
+}
+
+#container {
+    background-color: rgba(234, 239, 239, 0.72);     /* .topnav The Box */
+    width: 800px;                                /* Body Box, Size */
+    height: 900;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {                         /* Logo top */
+    color: #3937c5;
+    text-align: center; 
+    padding: 10px;
+}
+
+.content {                     /* Comemnt out */
+    padding: 0;     
+}
+
+.topnav {                         /* Comemnt out */
+    width: 100%;
+    background-color: #98b6ed;
+    line-height: 30px;
+    float: left;
+}
+
+.topnav a {                          /* Letter Box, Home, About, Flavore, etc */
+    display: block;
+    color: #235c2d;   
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.topnav li {                         /* Comemnt out */
+    list-style: none;
+    
+}
+
+.topnav ul {                          /* Comemnt out */
+    float: left;
+}
+
+.topnav ul li {                         /* Letters, up, down or? */
+    float: left;
+    list-style: none;
+    position: relative;   
+}
+
+#nav ul li a {                         /* Comemnt out */
+    display: block;
+    font-family: arial;
+    color: #dfdcb3;
+    font-size: 14px;
+    padding: 24px 14px;
+    text-decoration: none;
+    
+}
+.topnav ul li ul {                     /* Comemnt out */
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;   
+}
+
+.topnav ul li: hover ul {              /* Comemnt out */
+    display: block;
+    position: absolute;
+    background-color: #bcc7db;
+    padding: 10px;
+    padding-right: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.topnav ul li ul li {                   /* Comemnt out */
+    padding: 8px 14px;
+}
+
+.topnav ul li ul li a {                 /* Comemnt out */
+    border-radius: 4px;
+}
+
+.topnav ul li ul li a: hover {             /* Comemnt out */
+    background-color: #5084b9;
+}
+
+.slider_image {                            
+    flex: 70%;                 /* Body image slider */
+    flex-wrap: wrap;
+    display: flex;
+    background-color: cadetblue;
+    padding: 20px;
+}
+
+.flex-container {                     /* Comemnt out */            
+flex-wrap: wrap;
+    display: flex;
+    background-color: #a15fd9;
+    justify-content: center;
+    clear: both;
+    
+}
+
+.flex-container1 {                 /* Comemnt out */
+    display: flex;
+    background-color: #fc5d5d;
+    justify-content: center;
+    clear: both;
+    
+}
+
+.flex-container1 > div {             /* Comemnt out */
+    color: white;
+    width: %;
+    margin: 25px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 0px;
+}
+
+.flex-container2 {                     /* Comemnt out */
+    display: flex;
+    background-color: #ef5353;
+    justify-content: left;
+    clear: both;
+    
+}
+
+.flex-container2 > div {                 /* Comemnt out */
+    background-color: #60d4d4;
+    color: white;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.footer {                             /* Comemnt out */
+    text-align: center;
+    
+}
+
+
+
